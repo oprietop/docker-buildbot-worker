@@ -14,6 +14,8 @@ RUN pip --no-cache-dir install -U \
     selenium \
     unidecode \
     robotframework \
+    requests \
     robotframework-selenium2library \
     robotframework-appiumlibrary \
-    robotframework-browsermobproxylibrary
+    robotframework-browsermobproxylibrary \
+    robotframework-requests    
