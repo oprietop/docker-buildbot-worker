@@ -16,7 +16,9 @@ RUN pip --no-cache-dir install -U \
     unidecode \
     robotframework \
     requests \
-    robotframework-selenium2library \
     robotframework-appiumlibrary \
     robotframework-browsermobproxylibrary \
     robotframework-requests
+
+# needed until the final SeleniumLibrary 3.0 is released
+RUN pip --no-cache-dir install --pre --upgrade robotframework-seleniumlibrary
