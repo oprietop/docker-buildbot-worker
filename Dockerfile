@@ -16,6 +16,7 @@ RUN pip --no-cache-dir install -U \
     unidecode \
     robotframework \
     requests \
+    influxdb \
     robotframework-appiumlibrary \
     robotframework-browsermobproxylibrary \
     robotframework-requests
